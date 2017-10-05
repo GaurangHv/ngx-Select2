@@ -4,10 +4,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LSelect2Module } from 'ngx-select2';
 
 import { AppComponent } from './app.component';
+import { AskdComponent } from './askd/askd.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AskdComponent
   ],
   imports: [
     BrowserModule,
